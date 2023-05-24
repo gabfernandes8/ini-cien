@@ -24,6 +24,11 @@ header{
     height: 3rem;
 }
 
+.nomes p{
+    text-decoration: underline;
+    color: black;
+}
+
 .nomes{
     font-family: var(--text-font);
     font-weight: bolder;
@@ -124,3 +129,96 @@ img{
       font-family: var(--text-font);
       font-weight: bold;
   }
+
+  @media (max-width: 768px){
+
+    header{
+        height: 12vh;
+        padding: 12px 18px;
+    }
+
+    .logo img{
+        height: 1.8rem;
+    }
+
+    .nomes p{
+        text-decoration: underline;
+        color: black;
+        font-size: 0.7;
+    }
+
+    .nomes{
+        font-size: 0.6rem;
+        text-align: end;
+    }
+
+    main{
+        padding: 12px 30px;
+    }
+
+    .titulo{
+        font-size: 0.8rem;
+    }
+    
+    .description{
+        font-size: .5rem;
+        padding-top: 8px;
+        width: 94%;
+    }
+
+    img{
+        margin: 8px auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .texto{
+        gap: 22px;
+        font-size: 1rem;
+    }
+    
+    .barra{
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        margin: 2rem;
+    }
+    
+    .relatos h1{
+        font-size: 1.8rem;
+    }
+
+    .grid{
+        padding: 12px 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+      
+      .grid h2{
+        font-size: 1.5rem;
+    }
+    
+      .grid p{
+          padding: 0.6rem 0px;
+          font-size: 1rem;
+    }
+    
+      .obj h1{
+          font-size: 1.8rem;
+    }
+    
+      .obj p{
+          font-size: 1rem;
+          padding: 4px 4px;
+          text-align: justify;
+    }
+
+    footer{
+        display: grid;
+        place-items: center;
+        height: 10vh;
+        font-size: 1.1rem;
+    }
+
+  }  
