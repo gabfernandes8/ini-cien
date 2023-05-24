@@ -12,11 +12,22 @@
 }
 
 header{
+    background-color: var(--background);
+    height: 12vh;
     display: flex;
-    height: auto;
-    padding-top: 18px;
-    flex-direction: column;
+    padding: 12px 90px;
+    justify-content: space-between;
     align-items: center;
+}
+
+.logo img{
+    height: 3rem;
+}
+
+.nomes{
+    font-family: var(--text-font);
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .titulo{
@@ -53,6 +64,13 @@ img{
     flex-direction: column;
     gap: 22px;
     font-size: 18px;
+}
+
+.barra{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 2rem;
 }
 
 .relatos h1{
@@ -104,4 +122,5 @@ img{
       background-color: var(--background);
       font-size: 18px;
       font-family: var(--text-font);
+      font-weight: bold;
   }
