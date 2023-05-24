@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-font: 'Poppins', sans-serif;
+    --title-font: 'Bebas Neue', sans-serif;
+    --blue: #009999;
+    --background: #04d4d4;
+}
+
+header{
+    display: flex;
+    height: auto;
+    padding-top: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-family: var(--title-font);
+    color: var(--blue);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.description{
+    font-family: var(--text-font);
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 12px;
+    width: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+img{
+    margin: 12px auto;
+    height: 18rem;
+}
+
+.texto{
+    font-family: var(--text-font);
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-size: 18px;
+}
+
+.relatos h1{
+    font-family: var(--title-font);
+    text-align: center;
+    color: var(--blue);
+}
+
+.grid{
+    padding: 18px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .grid h2{
+    background: #04d4d4;
+    font-size: 26px;
+    font-weight: normal;
+  }
+
+  .grid p{
+      padding: 4px 0px;
+      font-family: var(--text-font);
+      font-size: 16px;
+      text-align: justify;
+  }
