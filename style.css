@@ -27,6 +27,7 @@ header{
 .nomes p{
     text-decoration: underline;
     color: black;
+    text-align: end;
 }
 
 .nomes{
@@ -107,6 +108,31 @@ img{
       text-align: justify;
   }
 
+  .estudos h1{
+    font-family: var(--title-font);
+    color: var(--blue);
+    text-align: center;
+  }
+
+  .estudos{
+    font-family: var(--text-font);
+    text-align: left
+  }
+
+  .estudos .p1{
+    font-weight: bold;
+  }
+
+  .estudos a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .estudos .p2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   .obj h1{
       font-family: var(--title-font);
       color: var(--blue);
@@ -144,12 +170,11 @@ img{
     .nomes p{
         text-decoration: underline;
         color: black;
-        font-size: 0.7;
+        font-size: .6rem;
     }
 
     .nomes{
-        font-size: 0.6rem;
-        text-align: end;
+        font-size: .6rem;
     }
 
     main{
@@ -161,9 +186,9 @@ img{
     }
     
     .description{
-        font-size: .5rem;
+        font-size: .6rem;
         padding-top: 8px;
-        width: 94%;
+        width: 99%;
     }
 
     img{
@@ -174,7 +199,7 @@ img{
 
     .texto{
         gap: 22px;
-        font-size: 1rem;
+        font-size: .9rem;
     }
     
     .barra{
